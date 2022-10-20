@@ -3,7 +3,7 @@ using namespace System.Net
 param($Timer)
 
 Set-AzContext -SubscriptionId "0c3517fa-65fd-4eaf-abad-bc021baf2987"
-$Resourcename = "personal"
+$Resourcename = "Resource group"
 
 $vms = Get-AzVM -ResourceGroupName $Resourcename -Status
 
