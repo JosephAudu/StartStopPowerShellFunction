@@ -197,7 +197,7 @@
     "variables": {
         "hostingPlanName": "[parameters('functionAppName')]",
         "storageAccountName": "[concat('storage', uniquestring(resourceGroup().id))]",
-        "repoUrl": "https://github.com/eamonoreilly/StartStopPowerShellFunction",
+        "repoUrl": "https://github.com/meeckeytek/StartStopPowerShellFunction",
         "branch": "master"
     },
     "resources": [
@@ -228,7 +228,7 @@
                         },
                         {
                             "name": "FUNCTIONS_EXTENSION_VERSION",
-                            "value": "~2"
+                            "value": "~4"
                         },
                         {
                             "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
