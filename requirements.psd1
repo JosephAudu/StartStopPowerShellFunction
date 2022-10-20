@@ -1,3 +1,5 @@
 @{
-	Az = '1.*'
+	Az.Accounts = '2.*'
+	Az.Compute = '5.*'
 }
+
