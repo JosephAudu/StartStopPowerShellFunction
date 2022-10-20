@@ -2,8 +2,8 @@ using namespace System.Net
 # Input bindings are passed in via param block.
 param($Timer)
 
-Set-AzContext -SubscriptionId "0c3517fa-65fd-4eaf-abad-bc021baf2987"
-$Resourcename = "Resource group"
+Set-AzContext -SubscriptionId "15ca209e-bbd3-41eb-a991-8523d8ca3392"
+$Resourcename = "rg-vms1-tst-sbx-uks1"
 
 $vms = Get-AzVM -ResourceGroupName $Resourcename -Status
 
