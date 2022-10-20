@@ -2,9 +2,9 @@
 param($Timer)
 
 # Specify the VMs that you want to start. Modify or comment out below based on which VMs to check.
-$VMResourceGroupName = "Contoso"
-#$VMName = "ContosoVM1"
-#$TagName = "AutomaticallyStart"
+$VMResourceGroupName = "personal"
+#$VMName = "MIKE"
+#$TagName = ""
 
 # Stop on error
 $ErrorActionPreference = 'stop'
